@@ -1,0 +1,46 @@
+# created by virtualenv automatically
+# 🔐 Environment variables
+.env
+.env.*
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# 📦 Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 🧪 Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🧠 Type checking / tooling
+.mypy_cache/
+.ruff_cache/
+
+# 🧾 Logs
+*.log
+
+# 💻 PyCharm
+.idea/
+
+# 🗂 OS files
+.DS_Store
+Thumbs.db
+
+# 🔄 Uvicorn / runtime
+*.pid
+
+# 🔐 Secrets / local configs
+secrets.json
+config.local.py
